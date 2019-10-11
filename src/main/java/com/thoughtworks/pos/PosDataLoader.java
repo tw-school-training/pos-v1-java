@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class PosDataLoader {
     public static Map<String, String> loadAllItems() {
-        Map<String, String> items = new LinkedHashMap<String, String>() {};
+        Map<String, String> items = new LinkedHashMap<String, String>() {
+        };
         items.put("ITEM000001", "可乐,3,瓶");
         items.put("ITEM000002", "雪碧,3,瓶");
         items.put("ITEM000003", "羽毛球,1,个");
@@ -18,6 +19,6 @@ public class PosDataLoader {
 
     public static String[] loadCart() {
         return new String[]{"ITEM000001", "ITEM000001", "ITEM000001", "ITEM000001",
-                "ITEM000001", "ITEM000003", "ITEM000003", "ITEM000005-3", "ITEM000006-3.4"};
+          "ITEM000001", "ITEM000003", "ITEM000003", "ITEM000005-3", "ITEM000006", "ITEM000006-2.4"};
     }
 }
