@@ -2,6 +2,8 @@ package com.thoughtworks.pos;
 
 public class Printer {
     public String print(String[] items) {
+
+        //请删除下面直接返回字符串, 重新做逻辑实现
         return "***<没钱赚商店>收据***\n" +
           "----------------------\n" +
           "名称：可乐，数量：5瓶，单价：3.00(元)，小计：15.00(元)\n" +
